@@ -23,10 +23,10 @@ export function FloatingNavbar() {
                 width="1.75em"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <title>PromptCraft</title>
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+                <title>Дюнапедия</title>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" strokeWidth="0" stroke="none" fill="currentColor"/>
               </svg>
-              <span className="font-semibold text-lg font-open-sans-custom tracking-tight">PromptCraft</span>
+              <span className="font-semibold text-lg font-open-sans-custom tracking-tight">Дюнапедия</span>
             </div>
           </button>
 
@@ -36,19 +36,19 @@ export function FloatingNavbar() {
               onClick={() => scrollToSection("features")}
               className="text-sm font-open-sans-custom text-gray-300 transition-colors hover:text-white [text-shadow:_0_2px_6px_rgb(0_0_0_/_40%)]"
             >
-              Функции
+              Разделы
             </button>
             <button
               onClick={() => scrollToSection("pricing")}
               className="text-sm font-open-sans-custom text-gray-300 transition-colors hover:text-white [text-shadow:_0_2px_6px_rgb(0_0_0_/_40%)]"
             >
-              Тарифы
+              Статьи
             </button>
             <button
               onClick={() => scrollToSection("about")}
               className="text-sm font-open-sans-custom text-gray-300 transition-colors hover:text-white [text-shadow:_0_2px_6px_rgb(0_0_0_/_40%)]"
             >
-              О нас
+              О вики
             </button>
             <button
               onClick={() => scrollToSection("contact")}
@@ -63,7 +63,7 @@ export function FloatingNavbar() {
             size="sm"
             className="bg-white text-black hover:bg-gray-100 [text-shadow:_0_1px_2px_rgb(0_0_0_/_10%)] font-open-sans-custom"
           >
-            Начать
+            Читать
           </Button>
         </div>
       </div>
